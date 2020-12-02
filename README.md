@@ -40,3 +40,8 @@ python run.py
 ```
 
 And then visit localhost:5000 in your browser.
+
+TODO:
+- [ ] Remove bootstrap (it is not necessary, and it slows down running of the app)
+- [ ] Remove python-dotenv (it is not necessary, and it slows down running the app)
+- [ ] Add some c00l right-click menu over memes (eg.: for jumpinWMS-7372 sad misclick bugg to original page)
