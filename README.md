@@ -2,7 +2,7 @@
 
 To see site in full glory, please visit:
 
-www.memecatcher.herokuapp.com
+https://memecatcher.herokuapp.com/
 
 Simple script for taking memes from various sites and wrapped in flask app.
 
