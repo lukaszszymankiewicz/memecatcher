@@ -1,4 +1,4 @@
-import requests
+import urllib.request
 
 
 def get_url_content(url: str) -> str:
@@ -11,4 +11,4 @@ def get_url_content(url: str) -> str:
         bytes object representing site content.
 
     """
-    return requests.get(url).content
+    return urllib.request.urlopen(url).read()
