@@ -45,4 +45,5 @@ TODO:
 - [ ] Remove bootstrap (it is not necessary, and it slows down running of the app, and it block the
         more complicated JavaScript code
 - [ ] Remove python-dotenv (it is not necessary, and it slows down running the app)
-- [ ] Add some c00l right-click menu over memes (eg.: for jumpinWMS-7372 sad misclick bugg to original page)
+- [ ] Add some c00l right-click menu over memes (eg.: for jumpining to original page)
+- [ ] Change cookie to last longer (and add its validity moreover after any visit of the page) 
