@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import timedelta
 
 from flask import (Flask, make_response, render_template, request,
                    send_from_directory)
@@ -40,7 +41,7 @@ def options():
     else:
         response = make_response(redirect("/"))
         pages = json.dumps(list(request.form.keys()))
-        response.set_cookie("pages", pages)
+        response.set_cookie(key="pages", value=pages, max_age=timedelta(days=30))
 
         return response
 
