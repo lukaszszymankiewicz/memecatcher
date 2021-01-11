@@ -4,7 +4,7 @@ To see site in full glory, please visit:
 
 https://memecatcher.herokuapp.com/
 
-Simple script for taking memes from various sites and wrapped in flask app.
+Script for scrapping memes from various sites wrapped in flask web-app.
 
 No ads, no buttons, no additional links, no stupid headers taking
 1/3 of screen, no logging, no comments - only pure fun.
@@ -14,12 +14,11 @@ No ads, no buttons, no additional links, no stupid headers taking
 Implementation is naive.
 When app is asked to generate page number *2* of memes, chosen sites is 
 scrapped from page *2* of its content, and then merged together on one screen.
-Script is heavily using BeautifulSoup and request library.
-App layer uses flask and flask-bootstrap.
+Script is build using BeautifulSoup, request and flask packages.
 
 ## Disclaimer
 
-This is script for personal-use only (and made purely for fun),
+This code is for personal-use only (and made purely for fun!),
 I do not to use recommend it other way.
 Please remember that most of these memes are owned by scrapped sites.
 
@@ -33,10 +32,10 @@ pip install -r requirements.txt
 pip install -r requirements.dev.txt
 ```
 
-And following command to start app:
+Run following command to start app:
 
 ```
 python run.py
 ```
 
-And then visit localhost:5000 in your browser.
+Visit localhost:5000 in your browser to see web-app
