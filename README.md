@@ -40,8 +40,3 @@ python run.py
 ```
 
 And then visit localhost:5000 in your browser.
-
-TODO:
-- [x] Remove python-dotenv (it is not necessary, and it slows down running the app)
-- [x] Remove overhead
-- [x] Change cookie to last longer (and add its validity moreover after any visit of the page) 
