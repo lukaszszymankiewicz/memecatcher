@@ -4,6 +4,8 @@ To see site in full glory, please visit:
 
 https://memecatcher.herokuapp.com/
 
+WARNING: site is unreachable because heroku closed free tier! Implementation of new version in progres.
+
 Script for scrapping memes from various sites wrapped in flask web-app.
 
 No ads, no buttons, no additional links, no stupid headers taking
