@@ -23,7 +23,7 @@ def meme_page(page_number: int = 1):
 
     return render_template(
         template_name_or_list="meme_page.html",
-        title="Meme Catcher",
+        title="MemeMaster",
         memes=memes,
         page_number=page_number,
     )
