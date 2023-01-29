@@ -21,7 +21,8 @@ Script is build using BeautifulSoup, request and flask packages.
 ## Disclaimer
 
 This code is for personal and educational use only (and made purely for fun!),
-I do notrecommend to use it any other way!
+I do not recommend to use it in ANY other way!
+
 Please remember that most of these memes are owned by scrapped sites.
 
 ## Developing
